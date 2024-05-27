@@ -1,3 +1,22 @@
-[gd_scene format=3 uid="uid://7n4ptl0p6vk6"]
+[gd_scene load_steps=3 format=3 uid="uid://7n4ptl0p6vk6"]
+
+[ext_resource type="Material" uid="uid://bt1jhjp7g6wec" path="res://material/dirt.tres" id="1_rhjod"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_nhgf5"]
+albedo_color = Color(0.105882, 0.317647, 0, 1)
 
 [node name="World" type="Node3D"]
+
+[node name="CSGBox3D" type="CSGBox3D" parent="."]
+size = Vector3(100, 1, 100)
+material = SubResource("StandardMaterial3D_nhgf5")
+
+[node name="CSGBox3D" type="CSGBox3D" parent="CSGBox3D"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.50038, 0)
+size = Vector3(2, 2, 2)
+material = ExtResource("1_rhjod")
+
+[node name="CSGBox3D2" type="CSGBox3D" parent="CSGBox3D"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.99941, 1.50038, 0)
+size = Vector3(2, 2, 2)
+material = ExtResource("1_rhjod")
