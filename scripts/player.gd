@@ -8,6 +8,16 @@ const JUMP_VELOCITY = 4.5
 var gravity = ProjectSettings.get_setting("physics/3d/default_gravity")
 
 
+func _ready():
+	Input.set_mouse_mode(Input.MOUSE_MODE_CAPTURED)
+
+
+
+func  _unhandled_input(event):
+	if event is InputEventMouseMotion:
+		rotation.y = rotation.y - event.relative.x 
+
+
 func _physics_process(delta):
 	# Add the gravity.
 	if not is_on_floor():
