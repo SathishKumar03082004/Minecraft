@@ -101,3 +101,5 @@ material = ExtResource("1_rhjod")
 
 [node name="Player" parent="." instance=ExtResource("2_m8jhi")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -6.98122, 2.31843, 5.09782)
+
+[node name="GridMap" type="GridMap" parent="."]
