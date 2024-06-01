@@ -1,37 +1,3 @@
-[gd_scene load_steps=6 format=3 uid="uid://dro87fifwa0ci"]
-
-[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_wuyde"]
-albedo_color = Color(0.0627451, 0.364706, 0, 1)
-
-[sub_resource type="BoxMesh" id="BoxMesh_kjbm4"]
-material = SubResource("StandardMaterial3D_wuyde")
-size = Vector3(2, 2, 2)
-
-[sub_resource type="BoxShape3D" id="BoxShape3D_gb4fe"]
-size = Vector3(2, 2, 2)
-
-[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_v2or8"]
-albedo_color = Color(0.364706, 0.133333, 0, 1)
-
-[sub_resource type="BoxMesh" id="BoxMesh_j6la8"]
-material = SubResource("StandardMaterial3D_v2or8")
-size = Vector3(2, 2, 2)
+[gd_scene format=3 uid="uid://dro87fifwa0ci"]
 
 [node name="Blocks" type="Node3D"]
-
-[node name="Grass" type="MeshInstance3D" parent="."]
-mesh = SubResource("BoxMesh_kjbm4")
-
-[node name="StaticBody3D" type="StaticBody3D" parent="Grass"]
-
-[node name="CollisionShape3D" type="CollisionShape3D" parent="Grass/StaticBody3D"]
-shape = SubResource("BoxShape3D_gb4fe")
-
-[node name="Dirt" type="MeshInstance3D" parent="."]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -4, 0, 0)
-mesh = SubResource("BoxMesh_j6la8")
-
-[node name="StaticBody3D" type="StaticBody3D" parent="Dirt"]
-
-[node name="CollisionShape3D" type="CollisionShape3D" parent="Dirt/StaticBody3D"]
-shape = SubResource("BoxShape3D_gb4fe")
