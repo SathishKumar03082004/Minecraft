@@ -37,9 +37,18 @@ data = {
 metadata/_editor_floor_ = Vector3(0, 12, 0)
 metadata/_edit_group_ = true
 
-[node name="OmniLight3D" type="OmniLight3D" parent="."]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -69.3243, 20.6084, 10.4591)
-light_energy = 16.0
+[node name="SpotLight3D" type="SpotLight3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 0.999681, 0.0252697, 0, -0.0252697, 0.999681, 2, 21, 75.8614)
+light_energy = 2.0
 shadow_enabled = true
-omni_range = 10.0
-omni_attenuation = 0.00961834
+spot_range = 4096.0
+spot_attenuation = 0.064704
+spot_angle = 180.0
+
+[node name="SpotLight3D2" type="SpotLight3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 0.999681, 0.0252697, 0, -0.0252697, 0.999681, -69.1063, 20.4172, 41.3814)
+light_energy = 2.0
+shadow_enabled = true
+spot_range = 4096.0
+spot_attenuation = 0.064704
+spot_angle = 180.0
