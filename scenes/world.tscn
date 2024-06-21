@@ -1,7 +1,8 @@
-[gd_scene load_steps=6 format=3 uid="uid://7n4ptl0p6vk6"]
+[gd_scene load_steps=7 format=3 uid="uid://7n4ptl0p6vk6"]
 
 [ext_resource type="PackedScene" uid="uid://bc1h61qd5o2w6" path="res://scenes/player.tscn" id="2_m8jhi"]
 [ext_resource type="MeshLibrary" uid="uid://cbehtssvghv1h" path="res://resources/blocks.tres" id="3_18lf6"]
+[ext_resource type="PackedScene" uid="uid://bs5tc58j41337" path="res://resources/light_bulb.glb" id="3_a58l4"]
 
 [sub_resource type="ProceduralSkyMaterial" id="ProceduralSkyMaterial_p34ed"]
 sky_horizon_color = Color(0.64625, 0.65575, 0.67075, 1)
@@ -36,3 +37,23 @@ data = {
 }
 metadata/_editor_floor_ = Vector3(0, 11, 0)
 metadata/_edit_group_ = true
+
+[node name="Bulb" parent="." instance=ExtResource("3_a58l4")]
+transform = Transform3D(1, 0, 0, 0, -1, -8.74228e-08, 0, 8.74228e-08, -1, 45.1315, 25.0454, 9.00634)
+
+[node name="SpotLight3D" type="SpotLight3D" parent="Bulb"]
+transform = Transform3D(1, 0, 0, 0, -4.37114e-08, -1, 0, 1, -4.37114e-08, 0, 0.167093, 0)
+light_energy = 16.0
+light_indirect_energy = 9.242
+light_volumetric_fog_energy = 4.232
+light_size = 1.0
+light_specular = 2.439
+shadow_enabled = true
+shadow_bias = 2.475
+spot_range = 2.0
+spot_attenuation = 0.15932
+spot_angle = 60.0
+spot_angle_attenuation = 0.00285954
+
+[node name="OmniLight3D" type="OmniLight3D" parent="Bulb"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.512766, 0)
