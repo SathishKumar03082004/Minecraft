@@ -1,4 +1,4 @@
-# Minecraft Clone in Godot
+# Minecraft in Godot
 
 ![Minecraft Clone Banner](Minecraft.jpg)
 
@@ -34,12 +34,12 @@ This project is a Minecraft-inspired game developed using the Godot game engine.
 
 ## Installation
 
-1. **Download the Executable**
-   - Go to the [Releases](https://github.com/yourusername/minecraft-clone-godot/releases) section of this repository.
-   - Download the latest version of the executable (`minecraft-clone-godot.exe`).
+1. **Download from itch.io**
+   - Visit the [Minecraft Clone page on itch.io](https://yourusername.itch.io/minecraft-clone-godot).
+   - Download the executable (`minecraft.exe`).
 
 2. **Run the Executable**
-   - Locate the downloaded `minecraft-clone-godot.exe` file.
+   - Locate the downloaded `minecraft.exe` file.
    - Double-click to run the game.
 
 ## How to Play
@@ -47,7 +47,7 @@ This project is a Minecraft-inspired game developed using the Godot game engine.
 - **Movement**: Use `W`, `A`, `S`, `D` to move around.
 - **Jump**: Press `Space`.
 - **Interact**: Use `Left Click` to remove a block and `Right Click` to place a block.
-- **Change Blocks**: Use the mouse scroll wheel or number keys `1-9` to change the active block type.
+- **Change Blocks**: Use number keys `1-9` to change the active block type.
 
 ## Contributing
 
@@ -96,9 +96,9 @@ This game is a tribute to the creativity and open-world mechanics of Minecraft, 
 
 To get the game up and running, follow these steps:
 
-1. **Download the Executable**
-   - Go to the [Releases](https://github.com/yourusername/minecraft-clone-godot/releases) section of this repository.
-   - Download the latest version of the executable (`minecraft-clone-godot.exe`).
+1. **Download from itch.io**
+   - Visit the [Minecraft Clone page on itch.io](https://yourusername.itch.io/minecraft-clone-godot).
+   - Download the executable (`minecraft-clone-godot.exe`).
 
 2. **Run the Executable**
    - Locate the downloaded `minecraft-clone-godot.exe` file.
