@@ -65,7 +65,7 @@ This project is licensed under the MIT License. See the [LICENSE](./LICENSE) fil
 
 ## Credits
 
-- **Godot Engine** - [Godot Engine](https://godotengine.org/)
+- **Godot Engine** -  Developed using the [Godot Engine](https://godotengine.org/)
 - **Minecraft** - This project draws inspiration from [Minecraft](https://www.minecraft.net/).
 
 ---
