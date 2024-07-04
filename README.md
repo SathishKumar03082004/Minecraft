@@ -34,7 +34,10 @@ This project is a Minecraft-inspired game developed using the Godot game engine.
 
 ## Installation
 
-1. **Clone the Repository**
-   ```sh
-   git clone https://github.com/yourusername/minecraft-clone-godot.git
-   cd minecraft-clone-godot
+
+
+## How to Play
+- Movement: Use W, A, S, D to move around.
+- Jump: Press Space.
+- Interact: Use Left Click to remove a block and Right Click to place a block.
+- Change Blocks: Use the mouse scroll wheel or number keys 1-9 to change the active block type.
