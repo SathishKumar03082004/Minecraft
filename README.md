@@ -1,6 +1,6 @@
 # Minecraft Clone in Godot
 
-![Minecraft Clone Banner](./assets/banner.png)
+![Minecraft Clone Banner](Minecraft.jpg)
 
 > A simple clone of Minecraft built using the Godot game engine.
 
