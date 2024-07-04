@@ -49,15 +49,59 @@ This project is a Minecraft-inspired game developed using the Godot game engine.
 - **Interact**: Use `Left Click` to remove a block and `Right Click` to place a block.
 - **Change Blocks**: Use number keys `1-9` to change the active block type.
 
-## Contributing
 
-Contributions are welcome! Please follow these steps:
+### Detailed Sections
 
-1. Fork the repository.
-2. Create a new branch (`git checkout -b feature/YourFeature`).
-3. Commit your changes (`git commit -m 'Add YourFeature'`).
-4. Push to the branch (`git push origin feature/YourFeature`).
-5. Create a Pull Request.
+#### Introduction
+
+This game project is an homage to Minecraft, utilizing the Godot engine's capabilities to create a voxel-based world where players can explore, build, and survive.
+
+#### Features
+
+- **Voxel-Based World**: The world is constructed from voxels, allowing for versatile terrain and structure building.
+- **Procedural Terrain Generation**: Explore diverse biomes generated procedurally for infinite replayability.
+- **Day-Night Cycle**: Experience a dynamic day-night cycle affecting lighting conditions and mob behavior.
+- **Player Interaction**: Use intuitive controls to mine blocks (`Left Click`), place blocks (`Right Click`), and navigate the environment (`W`, `A`, `S`, `D`).
+- **Inventory and Crafting**: Manage resources collected from the environment and craft tools and items essential for survival.
+
+#### Screenshots
+
+![Main Menu](./assets/main_menu.png)
+*Main Menu showcasing the Minecraft in Godot game.*
+
+![Gameplay](./assets/gameplay.png)
+*Gameplay demonstrating block building and exploration.*
+
+#### Installation
+
+To play the game, follow these steps:
+
+1. **Download from itch.io**
+   - Visit the [Minecraft Clone page on itch.io](https://yourusername.itch.io/minecraft-clone-godot).
+   - Download the executable file (`minecraft.exe`).
+   
+2. **Run the Executable**
+   - Locate the downloaded `minecraft.exe` file on your computer.
+   - Double-click the file to launch the game.
+
+#### How to Play
+
+- **Movement Controls**: Use `W`, `A`, `S`, `D` to move around.
+- **Jump**: Press `Space` to jump.
+- **Interact with Blocks**: Use `Left Click` to mine blocks and `Right Click` to place blocks.
+- **Inventory Management**: Use number keys `1-9` to select different items from your inventory.
+- **Crafting**: Combine materials in the crafting interface to create new items and tools.
+
+#### Contributing
+
+Contributions to the project are welcome! To contribute:
+
+1. **Fork the Repository**: Create your own fork of the repository.
+2. **Create a Branch**: Create a new branch for your feature (`git checkout -b feature/NewFeature`).
+3. **Make Changes**: Implement your changes and ensure they are tested.
+4. **Push Changes**: Push your branch to your fork (`git push origin feature/NewFeature`).
+5. **Open a Pull Request**: Submit a pull request from your branch to the main repository for review.
+
 
 ## License
 
