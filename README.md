@@ -35,11 +35,11 @@ This project is a Minecraft-inspired game developed using the Godot game engine.
 ## Installation
 
 1. **Download from itch.io**
-   - Visit the [Minecraft Clone page on itch.io](https://yourusername.itch.io/minecraft-clone-godot).
-   - Download the executable (minecraft.exe).
+   - Visit the [Minecraft on itch.io](https://yourusername.itch.io/minecraft-clone-godot).
+   - Download the executable `minecraft.exe`.
 
 2. **Run the Executable**
-   - Locate the downloaded minecraft.exe file.
+   - Locate the downloaded `minecraft.exe` file.
    - Double-click to run the game.
 
 ## How to Play
