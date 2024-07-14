@@ -1,4 +1,4 @@
-[gd_scene load_steps=7 format=3 uid="uid://7n4ptl0p6vk6"]
+[gd_scene load_steps=9 format=3 uid="uid://7n4ptl0p6vk6"]
 
 [ext_resource type="PackedScene" uid="uid://bc1h61qd5o2w6" path="res://scenes/player.tscn" id="2_m8jhi"]
 [ext_resource type="MeshLibrary" uid="uid://cbehtssvghv1h" path="res://resources/blocks.tres" id="3_18lf6"]
@@ -17,6 +17,14 @@ background_energy_multiplier = 0.5
 sky = SubResource("Sky_fq4d7")
 tonemap_mode = 2
 glow_enabled = true
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_urwxd"]
+transparency = 1
+albedo_color = Color(0.235294, 0.478431, 1, 0.745098)
+
+[sub_resource type="PlaneMesh" id="PlaneMesh_upxp0"]
+material = SubResource("StandardMaterial3D_urwxd")
+size = Vector2(5000, 5000)
 
 [node name="World" type="Node3D"]
 
@@ -58,3 +66,7 @@ spot_angle_attenuation = 0.00285954
 [node name="OmniLight3D" type="OmniLight3D" parent="Bulb"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.512766, 0)
 light_size = 0.081
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 8.16441, 0)
+mesh = SubResource("PlaneMesh_upxp0")
